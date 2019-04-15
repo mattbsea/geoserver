@@ -14,7 +14,7 @@
   </parent>
   <groupId>org.geoserver.web</groupId>
   <artifactId>gs-web-app</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>2.15-SNAPSHOT</version>
   <name>GeoServer Web Application</name>
   <dependencies>
@@ -157,6 +157,10 @@
       <artifactId>gt-jdbc-postgis</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.geotools.jdbc</groupId>
+      <artifactId>gt-jdbc-sqlserver</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.geotools</groupId>
       <artifactId>gt-geopkg</artifactId>
     </dependency>
@@ -228,6 +232,22 @@
       <artifactId>xmlunit</artifactId>
       <scope>test</scope>
     </dependency>
+    				<dependency>
+					<groupId>com.microsoft.sqlserver</groupId>
+					<artifactId>mssql-jdbc</artifactId>
+					<version>7.2.1.jre8</version>
+				</dependency>
+				<dependency>
+					<groupId>com.microsoft.azure</groupId>
+					<artifactId>adal4j</artifactId>
+					<version>1.6.3</version>
+				</dependency>
+				<dependency>
+					<groupId>com.microsoft.rest</groupId>
+					<artifactId>client-runtime</artifactId>
+					<version>1.6.5</version>
+				</dependency>
+
   </dependencies>
   <build>
     <plugins>
