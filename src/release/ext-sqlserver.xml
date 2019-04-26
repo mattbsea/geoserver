@@ -18,6 +18,37 @@
       <includes>
         <include>gt-jdbc-core-*.jar</include>
         <include>gt-jdbc-sqlserver-*.jar</include>
+        <include>mssql-*.jar</include>
+        <include>adal4j-*.jar</include>
+        <include>client-runtime-*.jar</include>
+        <include>accessors-smart-1.2.jar</include>
+<include>activation-*.jar</include>
+<include>asm-*.jar</include>
+<include>commons-codec-*.jar</include>
+<include>commons-lang3-*.jar</include>
+<include>gson-*.jar</include>
+<include>javax.mail-*.jar</include>
+<include>jcip-annotations-*.jar</include>
+<include>json-smart-*.jar</include>
+<include>lang-tag-*.jar</include>
+<include>nimbus-jose-jwt-*.jar</include>
+<include>oauth2-oidc-sdk-*.jar</include>
+<include>slf4j-api-*.jar</include>
+<include>adapter-rxjava-*.jar</include>
+<include>azure-annotations-*.jar</include>
+<include>converter-jackson-*.jar</include>
+<include>guava-*.jar</include>
+<include>jackson-annotations-*.jar</include>
+<include>jackson-core-*.jar</include>
+<include>jackson-databind-*.jar</include>
+<include>jackson-datatype-joda-*.jar</include>
+<include>joda-time-*.jar</include>
+<include>logging-interceptor-*.jar</include>
+<include>okhttp-(.jar</include>
+<include>okhttp-urlconnection-*.jar</include>
+<include>okio-*.jar</include>
+<include>retrofit-*.jar</include>
+<include>rxjava-*.jar</include>
       </includes>
       <excludes>
         <exclude>*-tests-*.jar</exclude>
